@@ -218,7 +218,8 @@ h1 {
 }
 
 .img-reel:hover {
-    transform: translateY(-7%) 
+    transform: translateY(-7%);
+    transform: rotate(-20deg);
 
 }
 
