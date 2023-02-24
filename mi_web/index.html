@@ -133,23 +133,29 @@
 
  
 
-  <!-- Reel - Proyectos -->
-  <section id="mi-reel" class="seccion-bg-claro d-flex flex-column justify-content-center align-items-center">
-    <h2 class="seccion-titulo-2">Echa un vistazo a mi reel</h2>
-    <h3 class="seccion-parrafo-2">...es un resumen de mis trabajos recientes.</h3>
-    <!-- Link Behance -->
-    <div class="container-fluid text-center reel-comp">
+  <!-- Reel - Proyectos V2 -->
+  <section id="mi-reel" class="reel-proy seccion-bg-claro d-flex flex-column">
+    <div class="container text-center reel-proy-cont align-items-start">
+
       <div class="row">
-        <div class="col">
-          <div class="reel-proyecto">|
+        <div class="col-12 col-md-6">
+          <div class="reel-proy-cont">
+            <h2 class="seccion-titulo-2 ">Echa un vistazo a mi reel</h2>
+            <h3 class="seccion-parrafo-2">...es un resumen de mis trabajos recientes.</h3>
             <a  href="https://www.behance.net/gallery/51375685/Motion-Graphics" 
                 target="_blank"
                 rel="no opener noreferrer">
-              <img class="img-reel" src="img\iconito-lapiz.svg" alt="icono reel">
+              <img class="img-reel img-fluid" src="img\iconito-lapiz.svg" alt="icono reel">
             </a>
           </div>
-        
-
+          <div class="reel-proy-cont">
+            <h2 class="seccion-titulo-2 ">Más de mi trabajo...</h2>
+            <a  href="https://www.behance.net/gallery/51384283/Diseno-Grafico" 
+                target="_blank"
+                rel="no opener noreferrer">
+              <img class="img-reel img-fluid" src="img\iconito-lapiz.svg" alt="icono reel">
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -158,13 +164,16 @@
 
 
   <!-- Seccion Contacto -->
-  <div id="contacto" class="contacto-titulo d-flex justify-content-center text-center">
+ <!--  <div id="contacto" class="contacto-titulo d-flex justify-content-center text-center">
     <h2 class="seccion-titulo-2">Con gusto responderé tu mensaje!</h2>
-  </div>
+  </div> -->
 
   <section class="contacto d-flex text-center justify-content-center align-items-evenly">
 
-    <form action="" autocomplete="on" method="get" target="_blank" class="row formulario" onsubmit="mensajito()">
+    <div id="contacto" class="contacto-titulo d-flex justify-content-center text-center">
+      <h2 class="seccion-titulo-2">Con gusto responderé tu mensaje!</h2>
+    </div>
+    <form class="row formulario" action="" autocomplete="on" method="get" target="_blank" onsubmit="mensajito()">
           <!--<label for="name">Nombre:</label><br>-->
           <input type="text" id="name" name="Nombre", placeholder="Nombre", autofocus, required><br><br>
           <!--<label for="email">E-mail</label><br>-->
