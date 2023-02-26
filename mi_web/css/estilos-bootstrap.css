@@ -334,36 +334,33 @@ h1 {
 
 
 @media screen and (min-width:360px) and (max-width: 414px){
-    .hero-fotoperfil {
-        width: 200px;
-        height: auto;
-        padding: 10px;
-    }
-    h1 {
-        font-size: 2.2rem;
-    }
-    .hero-principal h2 {
-        font-size: 1.4rem;
-    }
-    .formulario {
-        max-width: 22rem;
-        padding: 50px 10px 50px 10px;
-    }
-    .seccion-titulo {
-        font-size: 1.8rem;
-        font-family: 'Merriweather', serif;
-        font-weight: 400;
+        .hero-fotoperfil {
+            width: 200px;
+            height: auto;
+            padding: 10px;
+        }
+        h1 {
+            font-size: 2.2rem;
+        }
+        .hero-principal h2 {
+            font-size: 1.4rem;
+        }
+        .formulario {
+            max-width: 22rem;
+            padding: 50px 10px 50px 10px;
+        }
+        .seccion-titulo {
+            font-size: 1.8rem;
+            font-family: 'Merriweather', serif;
+            font-weight: 400;
         ]
-        
-    .seccion-parrafo {
-        font-size: 0.6rem;
-        font-family: 'Arimo', sans-serif;
-        font-weight: 700;
-        padding: 10px;
-    }
-   
-    ]
-
+            
+        .seccion-parrafo {
+            font-size: 0.6rem;
+            font-family: 'Arimo', sans-serif;
+            font-weight: 700;
+            padding: 10px;
+        }
 }
 
 
