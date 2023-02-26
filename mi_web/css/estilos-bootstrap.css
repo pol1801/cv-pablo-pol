@@ -73,8 +73,9 @@ h1 {
 /*     font-family: 'Merriweather', serif;
     font-weight: 400;
  */  
-
 }
+
+
 
 .hero-fotoperfil {
     width: 300px;
@@ -123,17 +124,18 @@ h1 {
 
 
 .seccion-titulo {
-    font-size: 2.4rem;
+    font-size: 3rem;
     font-family: 'Merriweather', serif;
     font-weight: 400;
-    padding: 10px;
+    padding: 25px;
 }
 
 .seccion-parrafo {
-    font-size: 1.4rem;
-    padding: 10px;
+    font-size: 2rem;
     font-family: 'Arimo', sans-serif;
     font-weight: 700;
+    padding: 25px;
+
 
 
 }
@@ -167,26 +169,17 @@ h1 {
 }
 
 .seccion-titulo-2 {
-    font-size: 1.5rem;
-    /* padding: 50px 25px 0px 25px; */
-    padding-top: 50px;
+    font-size: 1.4rem;
+    padding: 25px 25px;
     font-family: 'Merriweather', serif;
     font-weight: 400;
-
-    /* font-family: 'Arimo', sans-serif;
-    font-weight: 700; */
-
-
 }
 
 .seccion-parrafo-2 {
     font-size: 1.2rem;
-    padding-top: 10px;
-    padding-bottom: 25px;
+    padding: 0px  25px;
     font-family: 'Arimo', sans-serif;
     font-weight: 700;
-    /* font-family: 'Merriweather', serif;
-    font-weight: 400; */
 }
 
 .columna-trabajo i {
@@ -199,37 +192,76 @@ h1 {
     font-weight: 100;
 }
 
-/* Reel - Proyectos */
+/* Reel - Proyectos V2 */
 
-.reel-comp {
-    padding-top: 50px;
-    min-height: 300px;
-    align-items: center;
-    justify-content: center;
+.seccion-titulo-3 {
+    font-size: 1.4rem;
+    padding: 100px 25px 10px 25px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+.seccion-parrafo-3 {
+    font-size: 1.2rem;
+    padding: 0px  25px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+}
+
+.reel-proy {
+    padding: 50px;
+}
+
+.reel-proy-box-jump {
+    /* padding-top: 5px; */
+    /* margin-bottom: 50px; */
+    position: relative;
 }
 
 
-
-.img-reel {
-    max-height: 200px;
-    /* display: inline-block; */
-    /* padding: 25px; */
+.reel-proy-box-jump img {
+    height: 100%;
+    width: 100%;
+    display: block;
     transition: all 0.2s ease;
-   
-    
 }
 
-.img-reel:hover {
-    transform: translateX(-55px) rotate(-15deg);
+.reel-proy-box-jump:hover .caja-salta  {
+    transition: all 0.2s ease;
+    opacity: 0.1;
+}
 
+.overlay {
+    position:absolute;
+    top: 10%;
+    right: 25%;
+    bottom: 40%;
+    left: 25%;
+} 
+
+.overlay .iconito-cont{
+    /* height: 200px; */
+    /* width: auto; */
+    transition: all 0.2s ease;
+    opacity: 0;
+    transform: scale(0.25);
+}
+
+
+
+ .overlay:hover .iconito-cont {
+    opacity: 1;
+    transform: scale(0.5);
  }
 
+
+ /* Mas de mi trabajo */
 
 
 
 /* Seccion Contacto */
 .contacto {
-    background-color: rgb(46, 46, 46);
+    background-color: rgb(45, 45, 45);
     min-height: 350px;
     /* padding: 50px; */
     /* padding: 25px 0px 25px 0px; */
@@ -248,13 +280,19 @@ h1 {
 .contacto-titulo h2 {
     font-family: 'Merriweather', serif;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: aliceblue;
 
 }
 
+.formulario {
+    max-width: 33rem;
+    padding-top: 25px;
+    padding-bottom: 150px;
+}
+
 /* Pie de pagina - Footer */
-.txt-pie {
+footer > .txt-pie {
     font-size: 0.8rem;
     color: rgb(245, 245, 245);
     font-family: 'Arimo', sans-serif;
@@ -276,6 +314,37 @@ h1 {
 @media screen and (min-width: 700px) {
     .hero-inferior-imagen {
         max-width: 600px;
+    }
+}
+
+
+@media screen and (min-width: 375px) {
+    .seccion-titulo {
+        font-size: 1.4rem;
+    }
+    .seccion-parrafo {
+        font-size: 1.2rem;
+        padding: 10px 25px 25px 25px;
+    }
+    .seccion-titulo-2 {
+        font-size: 1.4rem;
+    }
+
+    .seccion-parrafo-2 {
+        font-size: 1.1rem;
+    }
+    .seccion-titulo-3 {
+        font-size: 1.2rem;
+        padding-top: 50px;
+    }
+    .seccion-parrafo-3 {
+        font-size: 1.1rem;
+    }
+    .formulario {
+        max-width: 20rem;
+        padding: 50px 10px 50px 10px;
+        /* padding-top: 50px;
+        padding-bottom: 50px; */
     }
     
 }

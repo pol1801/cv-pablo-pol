@@ -94,9 +94,9 @@
     <div class="container text-center">
       <div class="row ">
         <!-- Ilustración -->
-        <div class="columna-trabajo col-12 col-md-4">
+        <div class="columna-trabajo col-12 col-lg-4">
           <i class="bi bi-pencil-square"></i>
-          <h2 class="seccion-titulo-2">Ilustración</h2>
+          <h2 class="seccion-titulo-2">Ilustración | Diseño</h2>
           <p class="seccion-parrafo-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper elementum sapien sed consequat.</p>
           <div class="badges-contenedor">
             <span class="badge bg-dark">Illustrator</span>
@@ -105,7 +105,7 @@
         </div>
 
         <!-- Animación  -->
-        <div class="columna-trabajo col-12 col-md-4">
+        <div class="columna-trabajo col-12 col-lg-4">
           <i class="bi bi-bezier"></i>
           <h2 class="seccion-titulo-2">Animación 2D | 3D</h2>
           <p class="seccion-parrafo-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper elementum sapien sed consequat.</p>
@@ -116,7 +116,7 @@
         </div>
 
         <!-- Video -->
-        <div class="columna-trabajo col-12 col-md-4">
+        <div class="columna-trabajo col-12 col-lg-4">
           <i class="bi bi-film"></i>
           <h2 class="seccion-titulo-2">Video Edición | Motion Graphics</h2>
           <p class="seccion-parrafo-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper elementum sapien sed consequat.</p>
@@ -133,38 +133,45 @@
 
  
 
-  <!-- Reel - Proyectos -->
-  <section id="mi-reel" class="seccion-bg-claro d-flex flex-column justify-content-center align-items-center">
-    <h2 class="seccion-titulo-2">Echa un vistazo a mi reel</h2>
-    <h3 class="seccion-parrafo-2">...es un resumen de mis trabajos recientes.</h3>
-    <!-- Link Behance -->
-    <div class="container-fluid text-center reel-comp">
-      <div class="row">
-        <div class="col">
-          <div class="reel-proyecto">|
-            <a  href="https://www.behance.net/gallery/51375685/Motion-Graphics" 
-                target="_blank"
-                rel="no opener noreferrer">
-              <img class="img-reel" src="img\iconito-lapiz.svg" alt="icono reel">
-            </a>
+  <!-- Reel - Proyectos V2 -->
+  <section id="mi-reel" class="reel-proy text-center seccion-bg-claro d-flex p-2 flex-column">
+    <h2 class="seccion-titulo-3 ">Echa un vistazo a mi reel</h2>
+    <h3 class="seccion-parrafo-3">Es un resumen de mis trabajos recientes</h3>
+    <!-- Link a Behance motion graphics -->
+    <div class="container reel-proy-cont">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-lg-4 justify-content-center" >
+          <div class="reel-proy-box-jump">
+            <img class="caja-salta" src="img\box-master.gif" alt="caja saltarina">
+            <div class="overlay justify-content-center align-items-center">
+              <div class="iconito-cont">
+                <a href="https://www.behance.net/gallery/51375685/Motion-Graphics" target="_blank" rel="noopener noreferrer">
+                  <img src="img\iconito-lapiz.svg" alt="iconito lapiz">
+                </a>
+              </div>
+            </div>
           </div>
-        
-
         </div>
       </div>
     </div>
   </section>
 
 
+  <!-- Mas de mi trabajo -->
+
+
 
   <!-- Seccion Contacto -->
-  <div id="contacto" class="contacto-titulo d-flex justify-content-center text-center">
+ <!--  <div id="contacto" class="contacto-titulo d-flex justify-content-center text-center">
     <h2 class="seccion-titulo-2">Con gusto responderé tu mensaje!</h2>
-  </div>
+  </div> -->
 
   <section class="contacto d-flex text-center justify-content-center align-items-evenly">
 
-    <form action="" autocomplete="on" method="get" target="_blank" class="row formulario" onsubmit="mensajito()">
+    <div id="contacto" class="contacto-titulo d-flex justify-content-center text-center">
+      <h2 >Con gusto responderé tu mensaje!</h2>
+    </div>
+    <form class="row formulario" action="" autocomplete="on" method="get" target="_blank" onsubmit="mensajito()">
           <!--<label for="name">Nombre:</label><br>-->
           <input type="text" id="name" name="Nombre", placeholder="Nombre", autofocus, required><br><br>
           <!--<label for="email">E-mail</label><br>-->
