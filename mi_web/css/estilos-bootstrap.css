@@ -33,6 +33,7 @@ h1 {
     color: rgb(245, 245, 245);
     font-family: 'Merriweather', serif;
     font-weight: 400;
+    padding: 10px;
 
 }
 
@@ -71,9 +72,6 @@ h1 {
     color: rgb(245, 245, 245);
     font-family: 'Arimo', sans-serif;
     font-weight: 600; 
-/*     font-family: 'Merriweather', serif;
-    font-weight: 400;
- */  
 }
 
 
@@ -114,7 +112,7 @@ h1 {
 /* Sobre mi */
 
 .sobre-mi {
-    height: 500px;
+    height: 767px;
     padding: 3rem;
 }
 
@@ -125,18 +123,18 @@ h1 {
 
 
 .seccion-titulo {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Merriweather', serif;
     font-weight: 400;
     padding: 25px;
 }
 
 .seccion-parrafo {
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-family: 'Arimo', sans-serif;
     font-weight: 700;
     padding: 25px;
-
+    text-align: justify;
 
 
 }
@@ -177,7 +175,7 @@ h1 {
 }
 
 .seccion-parrafo-2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: 0px  25px;
     font-family: 'Arimo', sans-serif;
     font-weight: 700;
@@ -258,6 +256,18 @@ h1 {
 
  /* Mas de mi trabajo */
 
+ .mas-de-mi-trabajo {
+    min-height: 350px;
+    padding: 15px 50px 50px 50px;
+ }
+ .list-group-item-action:hover {
+    background-color: rgb(145, 145, 145);
+    color: rgb(45, 45, 45);
+ }
+
+ .list-group-item {
+    font-size: 1.1rem;
+ }
 
 
 /* Seccion Contacto */
@@ -273,7 +283,6 @@ h1 {
     background-color: rgb(46, 46, 46);
     padding-top: 50px;
     max-height: 150px;
-
     /* padding: 25px 0px 25px 0px; */
     /* margin: 50px 0px 50px 0px; */
   }
@@ -283,7 +292,6 @@ h1 {
     font-weight: 400;
     font-size: 1.2rem;
     color: aliceblue;
-
 }
 
 .formulario {
@@ -293,14 +301,20 @@ h1 {
 }
 
 /* Pie de pagina - Footer */
-footer > .txt-pie {
+
+.pie-pag {
     font-size: 0.8rem;
     color: rgb(245, 245, 245);
     font-family: 'Arimo', sans-serif;
     font-weight: 400; 
-
     padding: 50px;
 }
+
+.pie-pag img {
+    height: 24px;
+    margin: 5px;
+}
+
  
 
 
@@ -312,40 +326,49 @@ footer > .txt-pie {
     }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 767px) {
     .hero-inferior-imagen {
         max-width: 600px;
     }
 }
 
+@media screen and (min-width:360px) and (max-width: 414px){
+    .hero-fotoperfil {
+        width: 200px;
+        height: auto;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 2.2rem;
+        color: rgb(245, 245, 245);
+        font-family: 'Merriweather', serif;
+        font-weight: 400;
 
-@media screen and (min-width: 375px) {
-    .seccion-titulo {
+    }
+    .hero-principal h2 {
         font-size: 1.4rem;
-    }
-    .seccion-parrafo {
-        font-size: 1.2rem;
-        padding: 10px 25px 25px 25px;
-    }
-    .seccion-titulo-2 {
-        font-size: 1.4rem;
-    }
-
-    .seccion-parrafo-2 {
-        font-size: 1.1rem;
-    }
-    .seccion-titulo-3 {
-        font-size: 1.2rem;
-        padding-top: 50px;
-    }
-    .seccion-parrafo-3 {
-        font-size: 1.1rem;
+        color: rgb(245, 245, 245);
+        font-family: 'Arimo', sans-serif;
+        font-weight: 600; 
     }
     .formulario {
         max-width: 20rem;
         padding: 50px 10px 50px 10px;
-        /* padding-top: 50px;
-        padding-bottom: 50px; */
     }
+    .seccion-titulo {
+        font-size: 1.8rem;
+        font-family: 'Merriweather', serif;
+        font-weight: 400;
+        
+    .seccion-parrafo {
+        font-size: 0.6rem;
+        font-family: 'Arimo', sans-serif;
+        font-weight: 700;
     
+    }
+
+    }
 }
+
+
+
