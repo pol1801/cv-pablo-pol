@@ -128,14 +128,14 @@ h1 {
     font-size: 2.4rem;
     font-family: 'Merriweather', serif;
     font-weight: 400;
-    padding: 10px;
+    padding: 25px;
 }
 
 .seccion-parrafo {
     font-size: 1.4rem;
     font-family: 'Arimo', sans-serif;
     font-weight: 700;
-    padding: 10px;
+    padding: 25px;
 
 
 
@@ -171,15 +171,14 @@ h1 {
 
 .seccion-titulo-2 {
     font-size: 1.4rem;
-    padding-top: 25px;
+    padding: 25px 25px;
     font-family: 'Merriweather', serif;
     font-weight: 400;
 }
 
 .seccion-parrafo-2 {
     font-size: 1.2rem;
-    padding-top: 10px;
-    padding-bottom: 25px;
+    padding: 0px  25px;
     font-family: 'Arimo', sans-serif;
     font-weight: 700;
 }
@@ -196,11 +195,19 @@ h1 {
 
 /* Reel - Proyectos V2 */
 
-/* .container {
-    display: grid;
-    grid-template-columns: 
-        repeat(auto-fit, minmax(350px, 1fr))
-} */
+.seccion-titulo-3 {
+    font-size: 1.4rem;
+    padding: 25px 25px 10px 25px;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+}
+
+.seccion-parrafo-3 {
+    font-size: 1.2rem;
+    padding: 0px  25px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+}
 
 .reel-proy {
     padding: 50px;
@@ -309,21 +316,29 @@ footer > .txt-pie {
     
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
     .seccion-titulo {
         font-size: 1.4rem;
     }
-    .seccion-parrafo .seccion-parrafo-2 {
+    .seccion-parrafo {
         font-size: 1.2rem;
     }
 
     .seccion-titulo-2 {
-        font-size: 2rem;
+        font-size: 1.4rem;
 
     }
 
     .seccion-parrafo-2 {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+    }
+    .seccion-titulo-3 {
+        font-size: 1.6rem;
+
+    }
+
+    .seccion-parrafo-3 {
+        font-size: 1.5rem;
     }
 
     .formulario {
