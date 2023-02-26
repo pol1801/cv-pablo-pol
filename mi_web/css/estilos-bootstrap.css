@@ -125,14 +125,14 @@ h1 {
 
 
 .seccion-titulo {
-    font-size: 2.4rem;
+    font-size: 3rem;
     font-family: 'Merriweather', serif;
     font-weight: 400;
     padding: 25px;
 }
 
 .seccion-parrafo {
-    font-size: 1.4rem;
+    font-size: 2rem;
     font-family: 'Arimo', sans-serif;
     font-weight: 700;
     padding: 25px;
@@ -197,7 +197,7 @@ h1 {
 
 .seccion-titulo-3 {
     font-size: 1.4rem;
-    padding: 25px 25px 10px 25px;
+    padding: 100px 25px 10px 25px;
     font-family: 'Merriweather', serif;
     font-weight: 400;
 }
@@ -214,8 +214,8 @@ h1 {
 }
 
 .reel-proy-box-jump {
-    padding-top: 5px;
-    margin-bottom: 50px;
+    /* padding-top: 5px; */
+    /* margin-bottom: 50px; */
     position: relative;
 }
 
@@ -232,20 +232,23 @@ h1 {
     opacity: 0.1;
 }
 
+.overlay {
+    position:absolute;
+    top: 10%;
+    right: 25%;
+    bottom: 40%;
+    left: 25%;
+} 
+
 .overlay .iconito-cont{
+    /* height: 200px; */
+    /* width: auto; */
     transition: all 0.2s ease;
     opacity: 0;
-    display: block;
-    position: absolute;
-    top: -15%;
-    left: 15%;
     transform: scale(0.25);
 }
 
-.iconito-cont {
-    display: flex;
 
-}
 
  .overlay:hover .iconito-cont {
     opacity: 1;
@@ -313,8 +316,8 @@ footer > .txt-pie {
     .hero-inferior-imagen {
         max-width: 600px;
     }
-    
 }
+
 
 @media screen and (min-width: 375px) {
     .seccion-titulo {
@@ -322,25 +325,22 @@ footer > .txt-pie {
     }
     .seccion-parrafo {
         font-size: 1.2rem;
+        padding: 10px 25px 25px 25px;
     }
-
     .seccion-titulo-2 {
         font-size: 1.4rem;
-
     }
 
     .seccion-parrafo-2 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
     .seccion-titulo-3 {
-        font-size: 1.6rem;
-
+        font-size: 1.2rem;
+        padding-top: 50px;
     }
-
     .seccion-parrafo-3 {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
-
     .formulario {
         max-width: 20rem;
         padding: 50px 10px 50px 10px;
