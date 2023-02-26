@@ -112,8 +112,8 @@ h1 {
 /* Sobre mi */
 
 .sobre-mi {
-    height: 767px;
-    padding: 3rem;
+    height: 740px;
+    padding: 1.3rem;
 }
 
 .sobre-mi .contenedor {
@@ -332,6 +332,8 @@ h1 {
     }
 }
 
+
+
 @media screen and (min-width:360px) and (max-width: 414px){
     .hero-fotoperfil {
         width: 200px;
@@ -340,35 +342,31 @@ h1 {
     }
     h1 {
         font-size: 2.2rem;
-        color: rgb(245, 245, 245);
-        font-family: 'Merriweather', serif;
-        font-weight: 400;
-
     }
     .hero-principal h2 {
         font-size: 1.4rem;
-        color: rgb(245, 245, 245);
-        font-family: 'Arimo', sans-serif;
-        font-weight: 600; 
     }
     .formulario {
-        max-width: 20rem;
+        max-width: 22rem;
         padding: 50px 10px 50px 10px;
     }
     .seccion-titulo {
         font-size: 1.8rem;
         font-family: 'Merriweather', serif;
         font-weight: 400;
+        ]
         
     .seccion-parrafo {
         font-size: 0.6rem;
         font-family: 'Arimo', sans-serif;
         font-weight: 700;
-    
+        padding: 10px;
     }
+   
+    ]
 
-    }
 }
+
 
 
 
