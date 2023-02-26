@@ -332,11 +332,42 @@ h1 {
     }
 }
 
+@media screen and (max-width: 359px){
+    .hero-fotoperfil {
+        width: 170px;
+        height: auto;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.4rem;
+    }
+    .hero-principal h2 {
+        font-size: 1.2rem;
+    }
+    .formulario {
+        max-width: 20rem;
+        padding: 30px 20px 50px 20px;
+    }
+    .seccion-titulo {
+        font-size: 1.4rem;
+        font-family: 'Merriweather', serif;
+        font-weight: 400;
+    }
+        
+    .seccion-parrafo {
+        font-size: 1.1rem;
+        font-family: 'Arimo', sans-serif;
+        font-weight: 700;
+        padding: 5px;
+    }
+    
+}
+
 
 
 @media screen and (min-width:360px) and (max-width: 414px){
     .hero-fotoperfil {
-        width: 200px;
+        width: 170px;
         height: auto;
         padding: 10px;
     }
@@ -354,18 +385,19 @@ h1 {
         font-size: 1.8rem;
         font-family: 'Merriweather', serif;
         font-weight: 400;
-        ]
+    }
         
     .seccion-parrafo {
-        font-size: 0.6rem;
+        font-size: 1.2rem;
         font-family: 'Arimo', sans-serif;
         font-weight: 700;
-        padding: 10px;
     }
-   
-    ]
-
 }
+
+
+
+
+
 
 
 
